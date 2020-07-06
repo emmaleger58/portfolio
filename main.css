@@ -1,0 +1,10 @@
+/* Desktop - AccueilTop */
+
+.section1{
+  background-image: url(./img/bride-waterfall3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #020900;
+  height: 100vh;
+}
