@@ -15,6 +15,15 @@
 }
 
 /* Navbar */
+.absolu{
+  position: absolute;
+  width: 100%;
+}
+
+.relative{
+  position: relative;
+}
+
 .navbar-light .navbar-brand {
   color: white !important;
   font-family: Abyssinica SIL;
@@ -36,10 +45,6 @@
   justify-content: flex-end;
 }
 
-.absolu{
-  position: absolute;
-}
-
 /* Nice to meet you */
 .nice {
   color: white;
@@ -50,5 +55,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%; /* 94% n'est pas la bonne solution, mais fixe temporairement mon problème d'alignement */
+  height: 100%;
+}
+
+/* Image arrow */
+#arrow{
+  position: absolute;
+  width: 100%;
+  margin-top: -10%;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+#smaller{
+  max-width: 10%;
 }
