@@ -6,21 +6,30 @@
   letter-spacing: 0.2em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Section 1 */
 #section1 {
   background-image: url(./img/canyon.png);
-  background-size:cover;
+}
+
+.image-holder {
+  width: 100%;
   height: 100vh;
-  position: relative;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* Navbar */
-.absolu{
+.absolu {
   position: absolute;
   width: 100%;
 }
 
-.relative{
+.relative {
   position: relative;
 }
 
@@ -59,13 +68,18 @@
 }
 
 /* Image arrow */
-#arrow{
+#arrow {
   position: absolute;
   width: 100%;
   margin-top: -7%;
 }
 
-.center{
+.center {
   display: flex;
   justify-content: center;
+}
+
+/* Section 2 */
+#section2 {
+  background-image: url(./img/yellow-mountains.png);
 }
