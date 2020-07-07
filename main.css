@@ -62,14 +62,10 @@
 #arrow{
   position: absolute;
   width: 100%;
-  margin-top: -10%;
+  margin-top: -7%;
 }
 
 .center{
   display: flex;
   justify-content: center;
-}
-
-#smaller{
-  max-width: 10%;
 }
