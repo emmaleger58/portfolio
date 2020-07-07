@@ -1,10 +1,57 @@
-/* Desktop - AccueilTop */
+@font-face {
+  font-family: Abyssinica SIL;
+  src: url("fonts/AbyssinicaSIL400.ttf") format("ttf");
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.2em;
+}
 
-.section1{
+/* Section 1 */
+#section1 {
   background-image: url(./img/bride-waterfall3.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #020900;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.navbar-light .navbar-brand {
+  color: white !important;
+  font-family: Abyssinica SIL;
+  letter-spacing: 0.2em;
+  font-size: 2.5vh;
+  line-height: 2.1vh;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+  font-family: Abyssinica SIL;
+  letter-spacing: 0.2em;
+  font-size: 1.9vh;
+  line-height: 2.1vh;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Nice to meet you */
+/* .flex-container{
+  display: flex;
+  height: auto;
+} */
+
+.nice {
+  color: white;
+  font-family: Abyssinica SIL;
+  letter-spacing: 0.2em;
+  font-size: 5vh;
+  line-height: 2.1vh;
+  justify-content: center;
+  align-self: center;
 }
