@@ -83,3 +83,14 @@ html {
 #section2 {
   background-image: url(./img/yellow-mountains.png);
 }
+
+/* carousel */
+.carousel{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-caption{
+  color: black !important;
+}
