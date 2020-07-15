@@ -65,39 +65,45 @@
     <div id="section2" class="image-holder">
 
 <!-- Title -->
-<div class="absolu">
   <div id="main">Main projects</div>
-</div>
 
 <!-- carousel -->
-<div class="absolu">
-  <div class="pic-ctn">
-    <img src="img/firstpro.PNG" alt="screenshot website gratia">
-    <img src="img/secondpro.PNG" alt="screenshot website bikeshop">
-    <img src="img/thirdpro.PNG" alt="screenshot files explorer">
-    <img src="img/fourthpro.PNG" alt="screenshot bomberpets">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/firstprobis.PNG" class="d-block w-100" alt="screenshot website gratia">
+    </div>
+    <div class="carousel-item">
+      <img src="img/secondpro.PNG" class="d-block w-100" alt="screenshot website bikeshop">
+    </div>
+    <div class="carousel-item">
+      <img src="img/thirdpro.PNG" class="d-block w-100" alt="screenshot files explorer">
+    </div>
   </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
 
 <!-- Button -->
-<div class="absolu">
   <div id="show">
     <a href="" ><button type="button" class="btn btn-outline-light">Show more</button></a>
   </div>
-</div>
 
 <!-- Arrow down -->
-<div class="arrow">
-    <div class="relative center">
-        <a href="#section2"><img width="70" src="img/arrow-down-smaller.png" alt="arrow down"></a>
-    </div>
+<div class="arrow2">
+        <a href="#section3"><img width="70" src="img/arrow-down-smaller.png" alt="arrow down"></a>
   </div>
 </div>
 
 
 
-</div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
