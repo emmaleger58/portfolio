@@ -10,6 +10,22 @@
   </head>
   <body>
 
+    <?php
+//     include "connexion.php";
+//
+//     try {
+//   $stmt = $db->query('SELECT titre, contenu FROM about');
+//   while ($row = $stmt->fetch()) {
+//     echo "<br>" . $row['titre'] . " - " . $row['contenu'];
+//
+//   }
+// } catch (\Exception $e) {
+//   echo $e->getMessage();
+// }
+
+
+    ?>
+
 <!-- section1 -->
       <div id="section1" class="image-holder">
 
@@ -41,9 +57,7 @@
 
         <!-- Arrow down -->
         <div class="arrow">
-          <div class="center">
               <a href="#section2"><img width="70" src="img/arrow-down-smaller.png" alt="arrow down"></a>
-          </div>
         </div>
       </div>
 
