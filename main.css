@@ -107,9 +107,12 @@ html {
   line-height: 2.1vh;
 }
 
-/* second arrow */
-.arrow2 {
-  width: 100%;
-    display: flex;
-    justify-content: center;
+/* section 3 */
+
+#section3{
+  background-image: url(img/cliff.png);
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
