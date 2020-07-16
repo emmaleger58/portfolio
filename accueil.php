@@ -38,13 +38,13 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav mt-2 mt-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Projects</a>
+                  <a class="nav-link" href="projets.php">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Articles</a>
+                  <a class="nav-link" href="articles.php">Articles</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="about.php">About</a>
                 </li>
               </ul>
             </div>
