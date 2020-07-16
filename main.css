@@ -108,11 +108,90 @@ html {
 }
 
 /* section 3 */
-
 #section3{
   background-image: url(img/cliff.png);
   margin-top: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+/* formulaire de contact */
+.contact {
+  margin: 0 auto;
+  width: 75vh;
+  /* Encadré pour voir les limites du formulaire */
+  padding: 1em;
+  border: 1px solid #CCC;
+      border-radius: .25rem;
+}
+
+.libelle{
+  color: white;
+  font-family: Abyssinica SIL;
+  letter-spacing: 0.2em;
+  font-size: 3vh;
+  line-height: 2.1vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+  width: 18vh;
+  text-align: right;
+}
+
+input, textarea {
+  /* Pour s'assurer que tous les champs texte ont la même police.
+     Par défaut, les textarea ont une police monospace */
+     font-size: 2vh !important;
+
+  /* Pour que tous les champs texte aient la même dimension */
+  width: 40vh;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+  /* Pour souligner légèrement les éléments actifs */
+  border-color: #000;
+}
+
+textarea {
+  /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+  vertical-align: top;
+
+  /* Pour donner assez de place pour écrire du texte */
+  height: 5em;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  /* Cette marge supplémentaire représente grosso modo le même espace que celui
+     entre les étiquettes et les champs texte */
+  margin-left: .5em;
+}
+
+/* Réseaux */
+#social{
+  display: flex;
+  justify-content: space-around;
+}
+
+.reseaux{
+  color: white;
+  font-family: Abyssinica SIL;
+  letter-spacing: 0.2em;
+  font-size: 2.5vh;
+  line-height: 2.1vh;
+  margin-bottom: 2.5vh;
 }
