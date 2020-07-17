@@ -110,6 +110,7 @@
     Contactez-moi !
   </div>
 
+<div class="enligne">
 <!-- formulaire de contact -->
 <form class="contact" action="index.html" method="post">
   <div class="libelle">
@@ -128,6 +129,15 @@
     <button class="btn btn-outline-light" type="submit">Envoyer le message</button>
 </div>
 </form>
+
+<!-- Renseignements -->
+<div class="coordonnees center">
+<p>Emma Léger</p>
+<p>06.49.26.85.20</p>
+<p>emma.leger58@icloud.com</p>
+</div>
+
+</div>
 
 <!-- Réseaux -->
 <div id="social">
