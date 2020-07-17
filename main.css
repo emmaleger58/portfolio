@@ -10,17 +10,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
-
-/* input:invalid {
-        box-shadow: 0 0 5px 1px red;
-      }
-
- */
-
-
-
 /* Button scroll up */
 #scrollUp
 {
@@ -234,7 +223,9 @@ button {
 
 .center{
   text-align: center;
-  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 /* Réseaux */
@@ -254,4 +245,12 @@ button {
 
 .reseaux:hover{
   color: white;
+}
+
+
+/* Projects */
+#projects{
+  background-image: url(./img/Dock.png);
+  height: 100vh;
+  background-size: cover;
 }
