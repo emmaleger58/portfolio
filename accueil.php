@@ -23,26 +23,9 @@
 <!-- section1 -->
       <section id="section1" class="image-holder">
 
-        <!-- Navbar -->
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#section1">Emma Léger</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav mt-2 mt-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="projets.php">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="articles.php">Articles</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.php">About</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+      <?php
+include 'navbar.php';
+       ?>
 
         <!-- Nice to meet you -->
         <div class="">
@@ -107,7 +90,7 @@
 
   <!-- Contactez-moi -->
   <div id="main">
-    Contactez-moi !
+    Contact me !
   </div>
 
 <div class="enligne">
