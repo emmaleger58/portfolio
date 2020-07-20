@@ -95,7 +95,7 @@ include 'navbar.php';
 
 <div class="enligne">
 <!-- formulaire de contact -->
-<form class="contact" action="index.html" method="post">
+<form class="contact" action="accueil.php#section3" method="post">
   <div class="libelle">
     <label for="name">Nom :</label>
     <input type="text" id="name" name="name" required>
@@ -109,10 +109,11 @@ include 'navbar.php';
     <textarea id="msg" name="message" required></textarea>
 </div>
 <div id="button">
-    <button class="btn btn-outline-light" type="submit">Envoyer le message</button>
+    <button class="btn btn-outline-light" type="submit" >Envoyer le message</button>
 </div>
 </form>
 
+<div id="snackbar">FTG</div>
 
 <?php
 if (isset($_POST['message'])) {
@@ -121,13 +122,18 @@ if (isset($_POST['message'])) {
         echo '<p>Votre email doit comporter un arobase.</p>';
     else {
         $retour = mail('emma.leger58@icloud.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['email']);
-        if($retour)
-            echo '<p>Votre message a été envoyé.</p>';
+        if($retour){
+             echo '<script type="text/javascript">myFunction();</script>';}
         else
-            echo '<p>Erreur.</p>';
+            echo '<div class="alert alert-light" role="alert">
+  Error !
+</div>';
     }
+    unset($_POST['email']);
+    unset($_POST['message']);
 }
 ?>
+
 
 
 <!-- Renseignements -->
