@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +10,7 @@
     <title>Portfolio</title>
   </head>
   <body>
-    
+
     <!-- Button scroll up -->
         <div id="scrollUp">
     <a href="#top"><img id="small" src="img/arrow-up.png"/></a>

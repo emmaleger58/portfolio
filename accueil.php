@@ -97,7 +97,7 @@ include 'navbar.php';
 <!-- formulaire de contact -->
 <form class="contact" action="accueil.php#section3" method="post">
   <div class="libelle">
-    <label for="name">Nom :</label>
+    <label for="name">Name :</label>
     <input type="text" id="name" name="name" required>
 </div>
 <div class="libelle">
@@ -113,28 +113,27 @@ include 'navbar.php';
 </div>
 </form>
 
-<div id="snackbar">FTG</div>
+<!-- Pop up -->
+<div id="snackbar">Your message has been sent.</div>
+<div id="snackbar2">Error, try again.</div>
 
 <?php
 if (isset($_POST['message'])) {
     $position_arobase = strpos($_POST['email'], '@');
     if ($position_arobase === false)
-        echo '<p>Votre email doit comporter un arobase.</p>';
+        echo '<p>Your email must include an at sign.</p>';
     else {
         $retour = mail('emma.leger58@icloud.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['email']);
         if($retour){
              echo '<script type="text/javascript">myFunction();</script>';}
-        else
-            echo '<div class="alert alert-light" role="alert">
-  Error !
-</div>';
+        else{
+             echo '<script type="text/javascript">myFunctionBis();</script>';}
+
     }
     unset($_POST['email']);
     unset($_POST['message']);
 }
 ?>
-
-
 
 <!-- Renseignements -->
 <div class="coordonnees center">

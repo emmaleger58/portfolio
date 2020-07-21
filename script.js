@@ -1,3 +1,4 @@
+// Arrow scroll up
 jQuery(function(){
    $(function () {
        $(window).scroll(function () { //Fonction appelée quand on descend la page
@@ -10,8 +11,15 @@ jQuery(function(){
    });
 });
 
+// Pop up
 function myFunction() {
   var x = document.getElementById("snackbar");
   x.className = "show";
-  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 10000);
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 7000);
+};
+
+function myFunctionBis() {
+  var x = document.getElementById("snackbar2");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 7000);
 };

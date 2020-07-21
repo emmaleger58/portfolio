@@ -10,6 +10,32 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Navbar */
+.navbar{
+  align-items: flex-start;
+}
+
+.navbar-light .navbar-brand {
+  color: white !important;
+  font-family: Abyssinica SIL;
+  letter-spacing: 0.2em;
+  font-size: 3vh;
+  line-height: 2.1vh;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+  font-family: Abyssinica SIL;
+  letter-spacing: 0.2em;
+  font-size: 2.2vh;
+  line-height: 2.1vh;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
 /* Button scroll up */
 #scrollUp
 {
@@ -41,28 +67,6 @@ opacity: 0.5;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-}
-
-/* Navbar */
-.navbar-light .navbar-brand {
-  color: white !important;
-  font-family: Abyssinica SIL;
-  letter-spacing: 0.2em;
-  font-size: 3vh;
-  line-height: 2.1vh;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: white !important;
-  font-family: Abyssinica SIL;
-  letter-spacing: 0.2em;
-  font-size: 2.2vh;
-  line-height: 2.1vh;
-}
-
-.navbar-collapse {
-  display: flex;
-  justify-content: flex-end;
 }
 
 /* Nice to meet you */
@@ -211,6 +215,53 @@ button {
   margin-left: .5em;
 }
 
+/* Pop-up message envoyé */
+#snackbar, #snackbar2 {
+  visibility: hidden;
+  min-width: 250px;
+  background-color: transparent;
+  color: #fff;
+  color: white;
+  font-family: Abyssinica SIL;
+  letter-spacing: 0.2em;
+  font-size: 2vh;
+  line-height: 2.1vh;
+  text-align: center;
+  border-radius: 0.25rem;
+  border: 1px white solid;
+  padding: 16px;
+  position: fixed;
+  z-index: 10;
+  bottom: 150px;
+}
+
+#snackbar.show, #snackbar2.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 6.5s;
+  animation: fadein 0.5s, fadeout 0.5s 6.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 140px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 140px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 140px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 140px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+
 /* Renseignements */
 .coordonnees{
   color: white;
@@ -253,12 +304,17 @@ button {
   background-image: url(./img/Dock.png);
   height: 100vh;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-
-
-
-
+/* Cards */
+.card-body{
+  display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
 
 /* The Modal (background) */
 .modal {
@@ -297,60 +353,4 @@ button {
   color: #000;
   text-decoration: none;
   cursor: pointer;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#snackbar {
-  visibility: hidden;
-  min-width: 250px;
-  margin-left: -125px;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  border-radius: 2px;
-  padding: 16px;
-  position: fixed;
-  z-index: 1;
-  left: 50%;
-  bottom: 30px;
-  font-size: 17px;
-}
-
-#snackbar.show {
-  visibility: visible;
-  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  animation: fadein 0.5s, fadeout 0.5s 2.5s;
-}
-
-@-webkit-keyframes fadein {
-  from {bottom: 0; opacity: 0;}
-  to {bottom: 30px; opacity: 1;}
-}
-
-@keyframes fadein {
-  from {bottom: 0; opacity: 0;}
-  to {bottom: 30px; opacity: 1;}
-}
-
-@-webkit-keyframes fadeout {
-  from {bottom: 30px; opacity: 1;}
-  to {bottom: 0; opacity: 0;}
-}
-
-@keyframes fadeout {
-  from {bottom: 30px; opacity: 1;}
-  to {bottom: 0; opacity: 0;}
 }
