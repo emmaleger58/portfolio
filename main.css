@@ -354,3 +354,15 @@ button {
   text-decoration: none;
   cursor: pointer;
 }
+
+
+/* About */
+#about {
+  background-image: url(./img/bridge.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
