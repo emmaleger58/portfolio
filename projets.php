@@ -76,7 +76,9 @@ See more
 </div>
 <div class="modal-body">
           <img src="img/mockup-bomber.jpg" alt="mockup bomber" class="w-50 mx-auto d-block"><br>
-...
+          For the realization of this Bomberman in Javascript, the greatest difficulty was to make the elements placed randomly unversable. Tuncay Basak, who has been a great help throughout this project, showed me how he did it. <br>
+          From there, I was able to continue by animating the spritesheet. The enemy's sprite is always a problem for me.
+          The project is incomplete at the moment and will be continued when my level will up.
 </div>
 <div class="modal-footer">
   <a target="_blank" href="https://github.com/emmaleger58/decouverte-js">
@@ -110,8 +112,11 @@ See more
         </button>
       </div>
       <div class="modal-body">
-                <img src="img/mockup-bike.jpg" alt="" class="w-50 mx-auto d-block"><br>
-        ...
+                <img src="img/mockup-explorer.jpg" alt="mockup explorer" class="w-50 mx-auto d-block"><br>
+                The goal was to make a typical file explorer like the one in Windows. You must be able to create folders or files, delete them, move them, consult them ... <br>
+        Discovering PHP, I encountered many difficulties while creating this product. I interacted a lot with my entire class to achieve different results.<br>
+        Some have options that others do not have but all were very informative.<br>
+        I did not put it on the host because of a lack of security. Thus, the code can be viewed on my Github.
       </div>
       <div class="modal-footer">
         <a target="_blank" href="https://github.com/emmaleger58/files-explorer">
@@ -146,8 +151,10 @@ See more
 </button>
 </div>
 <div class="modal-body">
-          <img src="img/mockup-bike.jpg" alt="" class="w-50 mx-auto d-block"><br>
-...
+          <img src="img/mockup-gratia.jpg" alt="mockup gratia" class="w-50 mx-auto d-block"><br>
+          This is the first integration I have done. We had to choose a template to create the site. The instruction was to use Bootstrap primarily.<br>
+          After studying the accomplishments of my colleagues, I realized that I had used too much CSS.<br>
+          In addition, I noticed the importance of always thinking about responsive or even developing in mobile first.
 </div>
 <div class="modal-footer">
   <a target="_blank" href="https://github.com/emmaleger58/integration-template-gratia">
