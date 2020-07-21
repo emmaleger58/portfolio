@@ -25,7 +25,7 @@ include 'navbar.php';
 
 <!-- Modal -->
 <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalCenterTitle">Bikeshop</h5>
@@ -34,10 +34,16 @@ include 'navbar.php';
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <img src="img/mockup-bike.jpg" alt="mockup bikeshop" class="w-50 mx-auto d-block"><br>
+        My colleague Ismail, like the whole promotion, made an integration from a PSD template. We had to favor the use of Bootstrap. By reworking its integration, I had to remove Bootstrap in order to replace it by CSS. <br>
+The main difficulty was to transform the navbar because I had never done JavaScript before. <br>
+I enjoyed collaborative work and it allowed me to improve my own code (more comments, for example).
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-outline-dark">Link</button>
+        <a target="_blank" href="https://github.com/emmaleger58/integration-bikeshop-template">
+        <button type="button" class="btn btn-outline-dark">Repository</button></a>
+        <a target="_blank" href="https://emmal.promo-41.codeur.online/integration-bikeshop/">
+        <button type="button" class="btn btn-outline-dark">Link</button></a>
       </div>
     </div>
   </div>
@@ -69,10 +75,12 @@ See more
 </button>
 </div>
 <div class="modal-body">
+          <img src="img/mockup-bomber.jpg" alt="mockup bomber" class="w-50 mx-auto d-block"><br>
 ...
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-outline-dark">Link</button>
+  <a target="_blank" href="https://github.com/emmaleger58/decouverte-js">
+  <button type="button" class="btn btn-outline-dark">Repository</button></a>
 </div>
 </div>
 </div>
@@ -102,10 +110,12 @@ See more
         </button>
       </div>
       <div class="modal-body">
+                <img src="img/mockup-bike.jpg" alt="" class="w-50 mx-auto d-block"><br>
         ...
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-outline-dark">Link</button>
+        <a target="_blank" href="https://github.com/emmaleger58/files-explorer">
+        <button type="button" class="btn btn-outline-dark">Repository</button></a>
       </div>
     </div>
   </div>
@@ -136,10 +146,14 @@ See more
 </button>
 </div>
 <div class="modal-body">
+          <img src="img/mockup-bike.jpg" alt="" class="w-50 mx-auto d-block"><br>
 ...
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-outline-dark">Link</button>
+  <a target="_blank" href="https://github.com/emmaleger58/integration-template-gratia">
+  <button type="button" class="btn btn-outline-dark">Repository</button></a>
+  <a target="_blank" href="https://emmal.promo-41.codeur.online/integration-bootstrap/">
+  <button type="button" class="btn btn-outline-dark">Link</button></a>
 </div>
 </div>
 </div>
