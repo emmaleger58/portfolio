@@ -4,11 +4,14 @@
 
  <section id="about">
    <?php include 'navbar.php';?>
-<a href="CV-LEGER.pdf" download>
-  <div id="button">
-      <button class="btn btn-outline-light" type="submit" >Download resume</button>
-  </div>
-</a>
+   <div class="">
+     <a href="CV-LEGER.pdf" download>
+       <div id="button">
+           <button class="btn btn-outline-light" type="submit" >Download resume</button>
+       </div>
+     </a>
+   </div>
+
 
 <?php
 
