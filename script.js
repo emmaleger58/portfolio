@@ -23,3 +23,8 @@ function myFunctionBis() {
   x.className = "show";
   setTimeout(function(){ x.className = x.className.replace("show", ""); }, 7000);
 };
+
+// Empeche l'envoi du formulaire à chaque refresh
+if ( window.history.replaceState ) {
+  window.history.replaceState( null, null, window.location.href );
+}

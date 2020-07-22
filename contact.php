@@ -1,6 +1,6 @@
 <!-- formulaire de contact -->
 <div class="enligne">
-<form class="contact" action="accueil.php#section3" method="post">
+<form class="contact" method="post">
   <div class="libelle">
     <label for="name">Name :</label>
     <input type="text" id="name" name="name" required>
@@ -14,7 +14,7 @@
     <textarea id="msg" name="message" required></textarea>
 </div>
 <div id="button">
-    <button class="btn btn-outline-light" type="submit" >Envoyer le message</button>
+    <button class="btn btn-outline-light" type="submit" >Send</button>
 </div>
 </form>
 
