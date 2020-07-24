@@ -366,3 +366,12 @@ button {
   flex-direction: column;
   justify-content: space-between;
 }
+
+#noblue{
+  color: white !important;
+  text-decoration: none;
+}
+
+#noblue:hover{
+  color: transparent !important;
+}

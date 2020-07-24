@@ -5,11 +5,10 @@
  <section id="about">
    <?php include 'navbar.php';?>
    <div class="">
-     <a href="CV-LEGER.pdf" download>
+
        <div id="button">
-           <button class="btn btn-outline-light" type="submit" >Download resume</button>
+           <button class="btn btn-outline-light" type="submit"><a id="noblue" href="CV-LEGER.pdf" download>Download resume</a></button>
        </div>
-     </a>
    </div>
 
 
