@@ -1,17 +1,6 @@
 <?php
 
     include "header.php";
-//     include "connexion.php";
-//
-//     try {
-//   $stmt = $db->query('SELECT titre, contenu FROM about');
-//   while ($row = $stmt->fetch()) {
-//     echo "<br>" . $row['titre'] . " - " . $row['contenu'];
-//
-//   }
-// } catch (\Exception $e) {
-//   echo $e->getMessage();
-// }
 
     ?>
 

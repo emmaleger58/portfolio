@@ -71,6 +71,8 @@ include 'connexion.php';
 
     </div>
 
-<php
+
+<?php
+
 include 'footer.php';
  ?>
