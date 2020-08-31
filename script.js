@@ -1,4 +1,5 @@
-// Arrow scroll up
+
+// Arrow scroll up (gets really upset if you dont scroll with it)
 jQuery(function(){
    $(function () {
        $(window).scroll(function () { //Fonction appelée quand on descend la page
@@ -24,7 +25,24 @@ function myFunctionBis() {
   setTimeout(function(){ x.className = x.className.replace("show", ""); }, 7000);
 };
 
+
+
 // Empeche l'envoi du formulaire à chaque refresh
 if ( window.history.replaceState ) {
   window.history.replaceState( null, null, window.location.href );
 }
+
+const nome = document.getElementById("nome");
+const scendi = document.getElementById("scendi");
+
+nome.addEventListener("mouseenter", () => {
+  nome.style.display = "none";
+  scendi.style.display = "flex";
+  console.log("em lpb\n");
+})
+
+scendi.addEventListener("mouseleave", () => {
+  scendi.style.display = "none";
+  nome.style.display = "flex";
+  console.log("by em\n");
+})

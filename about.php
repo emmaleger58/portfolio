@@ -1,9 +1,9 @@
 <?php
-  include 'header.php';
+  include 'include/header.php';
  ?>
 
  <section id="about">
-   <?php include 'navbar.php';?>
+   <?php include 'include/navbar.php';?>
    <div class="">
 
        <div id="button">
@@ -15,11 +15,11 @@
 <?php
 
 
-include 'contact.php';
-include 'reseaux.php';
+include 'include/contact.php';
+include 'include/reseaux.php';
     ?>
 
 
 
  </section>
-<?php include 'footer.php'; ?>
+<?php include 'include/footer.php'; ?>

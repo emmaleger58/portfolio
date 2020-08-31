@@ -1,0 +1,7 @@
+Options +FollowSymlinks
+ErrorDocument 404 /portfolio/error-404.php?code=404
+
+RewriteEngine On
+RewriteBase /portfolio/
+RewriteCond %{REQUEST_FILENAME} !-d [NC]
+RewriteCond %{REQUEST_FILENAME} !-f [NC]

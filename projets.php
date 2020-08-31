@@ -1,5 +1,5 @@
 <?php
-include "header.php";
+include "include/header.php";
 
  ?>
 
@@ -7,7 +7,7 @@ include "header.php";
 <section id="projects">
 
   <?php
-include 'navbar.php';
+include 'include/navbar.php';
    ?>
 
 <!-- Cards -->
@@ -176,5 +176,5 @@ See more
 </section>
 
 <?php
-include 'footer.php';
+include 'include/footer.php';
  ?>

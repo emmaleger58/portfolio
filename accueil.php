@@ -1,6 +1,6 @@
 <?php
 
-    include "header.php";
+    include "include/header.php";
 
     ?>
 
@@ -8,7 +8,7 @@
       <section id="section1" class="image-holder">
 
       <?php
-include 'navbar.php';
+include 'include/navbar.php';
        ?>
 
         <!-- Nice to meet you -->
@@ -77,12 +77,12 @@ include 'navbar.php';
     Contact me !
   </div>
 
-<?php include 'contact.php';
-include 'reseaux.php';
+<?php include 'include/contact.php';
+include 'include/reseaux.php';
 ?>
 
 </section>
 
 <?php
-include "footer.php";
+include "include/footer.php";
  ?>

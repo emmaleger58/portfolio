@@ -4,7 +4,8 @@ include 'header.php';
 
  <!-- Navbar -->
    <nav class="navbar navbar-expand-lg navbar-light">
-     <a class="navbar-brand" href="accueil.php">Emma Léger</a>
+     <a id="nome" class="navbar-brand" href="accueil.php">Emma Léger</a>
+     <a id="scendi" style="display: none" class="navbar-brand" href="accueil.php">SCROLL DOWN!!</a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
      </button>
